@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+.bordas{
+    display: flex;
+    justify-content: space-around;
+    margin: -40px;
+}
+ul{
+    list-style: none;
+}
+.direita{display: flex;
+    flex-direction: column;
+}
+.cabeça{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+h1{
+    margin-top: ]20px;
+}
+.p1{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 40px;
+background-color: white;
+}
+.topico1{
+    font-size: 24px;
+    background-color: white;
+    list-style: none;
+}
+.p2{margin-top: 28px;
+   margin-left: 140px;
+   margin-right: 140px;
+    background-color: white;
+}
+.topico2{
+    font-size: 24px;
+    background-color: white;
+}
+.p3{margin-top: 28px;
+    margin-left: 140px;
+    margin-right: 140px;
+     background-color: white;
+}
+.topico3{
+    font-size: 24px;
+    background-color:white;
+}
+ul{
+    margin-top: 18px;
+}
+.cb1{
+    margin-top: 18px;
+}
+.ulapre{
+    margin-top: 18px;
+}
+.esquerda, .direita{
+    width: 140px;
+    background-image: url(../assets/bordas\ vinhas.png);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+.esquerda{
+    left: 0;
+}
+.direita{
+    right: 0;
+}
