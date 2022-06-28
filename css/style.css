@@ -66,10 +66,10 @@ ul{
 }
 .esquerda, .direita{
     width: 140px;
-    background-image: url(../assets/bordas\ vinhas.png);
+    background-image:url(../assets/bordas\vinhas.png);
     position: fixed;
-    top: 0;
-    bottom: 0;
+    top:0;
+    bottom:0;
 }
 .esquerda{
     left: 0;
